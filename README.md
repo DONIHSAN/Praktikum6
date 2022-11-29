@@ -6,3 +6,19 @@
 
 # Latihan 1
 
+![gambar 10](screenshot/ss9.png)
+
+**Tulis Kode Program Seperti Berikut :**
+
+
+![gambar1](screenshot/ss1.png)
+
+# Output
+
+Maka hasil nya akan seperti ini :
+
+![gambar 2](screenshot/ss2.png)
+
+# Praktikum
+
+
