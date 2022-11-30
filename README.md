@@ -48,7 +48,7 @@ while True:
     c = input("\n(L)ihat, (T)ambah, (U)bah), (H)apus, (C)ari, (K)eluar: ")
 ```
 
-`**Menambahkan data**` yang akan diinput kemudian masuk ke dalam dictionary.
+`Menambahkan data` yang akan diinput kemudian masuk ke dalam dictionary.
 
 ```
 if c.lower() == 't':
@@ -66,7 +66,7 @@ if c.lower() == 't':
 
 ![gambar 5](screenshot/ss5.png)
 
-Jika ingin `**Menampilkan/Melihat data**` , dapat menggunakan :
+Jika ingin `Menampilkan/Melihat data` , dapat menggunakan :
 
 ```
 elif c.lower() == 'l':
@@ -96,7 +96,7 @@ elif c.lower() == 'l':
 
 ![gambar 6](screenshot/ss6.png)
 
-Jika ingin `**Mengubah data**` dapat menggunakan :
+Jika ingin `Mengubah data` dapat menggunakan :
 
 ```
 elif c.lower() == 'u':
@@ -143,7 +143,7 @@ elif c.lower() == 'c':
 ![gambar 11](screenshot/ss11.png)
 
 
-Jika ingin `**Menghapus data**` dapat menggunakan :
+Jika ingin `Menghapus data` dapat menggunakan :
 
 ```
 elif c.lower() == 'h':
@@ -159,14 +159,11 @@ elif c.lower() == 'h':
 
 ![gambar 8](screenshot/ss8.png)
 
-Jika sudah `selesai input , pilih menu 'K'` untuk memberhentikan program.
 
-```
-elif c. lower() == 'k':
-        break
-```
+**Sekian Tugas Praktikum di Pertemuan kali ini.**
 
-**Output melihat data dan keluar dari program :**
+**Jika Ada yg Salah Sama Minta Maaf.**
 
+**Wassalamualaikum wr.wb.**
 
 
