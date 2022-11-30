@@ -66,7 +66,7 @@ if c.lower() == 't':
 
 ![gambar 5](screenshot/ss5.png)
 
-Jika ingin `Menampilkan/Melihat data` , dapat menggunakan :
+Jika ingin `Menampilkan / Melihat data` , dapat menggunakan :
 
 ```
 elif c.lower() == 'l':
@@ -168,7 +168,7 @@ elif c.lower() == 'h':
 
 **Sekian Tugas Praktikum di Pertemuan kali ini.**
 
-**Jika Masih Ada Yg Salah Sama Minta Maaf.**
+**Jika Masih Ada Yg Salah Saya Minta Maaf.**
 
 **Wassalamualaikum wr.wb.**
 
