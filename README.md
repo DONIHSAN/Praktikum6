@@ -30,13 +30,13 @@ Maka hasil nya akan seperti ini :
 
 # Penjelasan
 
-Membuat dictionary yang akan diinput dengan data.
+`Membuat dictionary` yang akan diinput dengan data.
 
 ```
 data = {}
 ```
 
-Membuat perulangan dan keterangan untuk pilihan menu.
+`Membuat perulangan` dan keterangan untuk pilihan menu.
 
 ```
 while True:
@@ -48,7 +48,7 @@ while True:
     c = input("\n(L)ihat, (T)ambah, (U)bah), (H)apus, (C)ari, (K)eluar: ")
 ```
 
-**Menambahkan data** yang akan diinput kemudian masuk ke dalam dictionary.
+`**Menambahkan data**` yang akan diinput kemudian masuk ke dalam dictionary.
 
 ```
 if c.lower() == 't':
@@ -66,7 +66,7 @@ if c.lower() == 't':
 
 ![gambar 5](screenshot/ss5.png)
 
-Jika ingin **Menampilkan/Melihat data** , dapat menggunakan.
+Jika ingin `**Menampilkan/Melihat data**` , dapat menggunakan :
 
 ```
 elif c.lower() == 'l':
@@ -96,7 +96,7 @@ elif c.lower() == 'l':
 
 ![gambar 6](screenshot/ss6.png)
 
-Jika ingin **Mengubah data** dapat menggunakan.
+Jika ingin `**Mengubah data**` dapat menggunakan :
 
 ```
 elif c.lower() == 'u':
@@ -118,7 +118,32 @@ elif c.lower() == 'u':
 
 ![gambar 7](screenshot/ss7.png)
 
-Jika ingin **Menghapus data** dapat menggunakan.
+
+Jika ingin `Mencari data` dapat menggunakan :
+
+```
+elif c.lower() == 'c':
+        print("Cari Data")
+        nama = input("Masukkan Nama : ")
+        if nama in data.keys():
+            print("="*88)
+            print("|                             Daftar Mahasiswa                          |")
+            print("="*88)
+            print("| Nama                      |       NIM       |  UTS  |  UAS  |  Tugas  |  Akhir  |")
+            print("="*88)
+            print("| {0:20s} | {1:15d} | {2:5d} | {3:5d} | {4:7d} | {5:7.2f} |"
+                  .format(nama, nim, uts, uas, tugas, akhir))
+            print("="*88)
+        else:
+            print("Nama {0} Tidak Ditemukan".format(nama))
+```
+
+**Output data yg ingin di cari.**
+
+![gambar 11](screenshot/ss11.png)
+
+
+Jika ingin `**Menghapus data**` dapat menggunakan :
 
 ```
 elif c.lower() == 'h':
@@ -133,5 +158,15 @@ elif c.lower() == 'h':
 **Output data yg telah di hapus.**
 
 ![gambar 8](screenshot/ss8.png)
+
+Jika sudah `selesai input , pilih menu 'K'` untuk memberhentikan program.
+
+```
+elif c. lower() == 'k':
+        break
+```
+
+**Output melihat data dan keluar dari program :**
+
 
 
