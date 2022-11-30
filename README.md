@@ -160,9 +160,15 @@ elif c.lower() == 'h':
 ![gambar 8](screenshot/ss8.png)
 
 
+# Flowchart Praktikum 6
+
+![gambar 0](screenshot/flowchart%20Modul%20Praktikum%206.png)
+
+
+
 **Sekian Tugas Praktikum di Pertemuan kali ini.**
 
-**Jika Ada yg Salah Sama Minta Maaf.**
+**Jika Masih Ada Yg Salah Sama Minta Maaf.**
 
 **Wassalamualaikum wr.wb.**
 
